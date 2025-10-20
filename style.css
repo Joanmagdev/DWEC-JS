@@ -1,0 +1,47 @@
+.caja{
+  height: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column; 
+  gap: 7px;
+  padding: 10px;
+}
+.caja2{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.mod-1{
+    width: 200px;
+}
+
+.mod-2{
+    width: 400px;
+}
+button{
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+table {
+border-collapse: collapse;
+width: 450px;
+font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4c8caf;
+  color: white;
+  text-align: center;
+}
+
+td:first-child {
+  font-weight: bold;
+}

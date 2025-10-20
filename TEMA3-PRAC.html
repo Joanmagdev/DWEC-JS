@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caja">
+        <input id="nombre" class="mod-1" type="text" placeholder="Nombre">
+        <input id="apellidos" class="mod-1" type="text" placeholder="Apellidos">
+        <input id="fecha" class="mod-1" type="date">
+        <input id="direccion" class="mod-2" type="text" placeholder="Direccion ej : Calle joan miro nº 123 Pta 55">
+        <input id="poblacion" class="mod-1" type="text" placeholder="Poblacion ej : 12512-Valencia ">
+        <input id="idiomas" class="mod-2" type="text" placeholder=" idiomas ej : español valenciano ingles">
+        <input id="hijos" class="mod-2" type="text" placeholder="Hijos ej : juan-pepe-manolo">
+        <button onclick="actualizar()">enviar</button>
+    </div>
+    
+    
+    <div class="caja2">
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Datos del Ciudadano</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td id="nombreyapellidos">Apellidos, Nombre en Mayúsculas</td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td>XX años</td>
+                </tr>
+                <tr>
+                    <td>Calle</td>
+                    <td>XXXXXXXXXX XXXXXXXXXXXX XXXXX</td>
+                </tr>
+                <tr>
+                    <td>Patio</td>
+                    <td>YYYYY</td>
+                </tr>
+                <tr>
+                    <td>Puerta</td>
+                    <td>ZZZZZ</td>
+                </tr>
+                <tr>
+                    <td>Código Postal</td>
+                    <td>XXXXX</td>
+                </tr>
+                <tr>
+                    <td>Población</td>
+                    <td>YYYYY en mayúsculas</td>
+                </tr>
+                <tr>
+                    <td>Idiomas</td>
+                    <td>a</td>
+                </tr>
+                <tr>
+                    <td>Num. Hijos</td>
+                    <td>X</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="TEMA3-PRAC.js"></script>
+</body>
+</html>
